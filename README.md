@@ -5,8 +5,8 @@
 поміряно швидкодію; окремо показано другий тип NoSQL. 
 
 Середовище: Python 3.13 + `psycopg`, `pymongo`, `redis`; PostgreSQL 18,
-MongoDB 8, Redis 8 на `127.0.0.1` (5432 / 27017 / 6379).
-Пароль PostgreSQL задається змінною `FP_DB_PASSWORD` — у коді його немає
+MongoDB 8, Redis 8 
+Пароль PostgreSQL задається змінною `FP_DB_PASSWORD` 
 
 ```bash
 pip install "psycopg[binary]" pymongo redis
